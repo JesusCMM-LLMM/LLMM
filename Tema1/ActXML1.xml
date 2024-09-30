@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Biblioteca> 
+
+<Libro>
+	<categoría>"Fantasía"</categoría>
+	<Título> "Memorias de Idhún"</Título>
+	<Autor> "Laura Gallego"</Autor>
+	<Año> "2004"</Año> 
+	</Libro>
+
+<Libro>
+	<categoría>"Poesía"</categoría>
+	<Título> "Antología del 27"</Título>
+	<Autor> "Varios autores"</Autor>
+	<Año> "1997"</Año> 
+	</Libro>
+
+<Libro>
+	<categoría>"Policiaca"</categoría>
+	<Título> "Todo arde"</Título>
+	<Autor> "Juan Gómez Jurado"</Autor>
+	<Año> "2022"</Año> 
+	</Libro>
+
+</Biblioteca>
+
+
+
