@@ -15,7 +15,7 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | [Ejercicio 5](/Tema1/Ejercicio5HTML.html) | Ejercicio 5 de HTML de la actividad |
 | [Ejercicio 6](/Tema1/Ejercicio6HTML.html) | Ejercicio 6 de HTML de la actividad |
 | [Ejercicio 7](/Tema1/Ejercicio7HTML.html) | Ejercicio 7 de HTML de la actividad |
-| [Ejercicio 8](/Tema1/www.misitio.com) | Ejercicio 8 de HTML de la actividad |
+| [Ejercicio 8](/Tema1/Ejercicio8) | Ejercicio 8 de HTML de la actividad |
 | [Ejercicio 10](/Tema1/Ejercicio10HTML.html) | Ejercicio 10 de HTML de la actividad |
 | [Ejercicio 11](/Tema1/Ejercicio11HTML.html) | Ejercicio 11 de HTML de la actividad |
 | [Ejercicio 12](/Tema1/Ejercicio12HTML.html) | Ejercicio 12 de HTML de la actividad |
