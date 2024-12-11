@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <style>
+        body {
+            background-color: blanchedalmond;
+            font-family: Helvetica,Arial,Verdana,sans-serif;
+            font-size: 150%;
+            }
+        h2 {
+            color:#1D6893;
+            }
+        table, th, td {
+            border:1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+            }  
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            }
+
+        .download-button:hover {
+            background-color: #0056b3;
+            }       
+    </style>
+    <title>Web4U - SVG</title>
+</head>
+<body>
+    <hr />
+<div id="dolphincontainer">
+  <div id="dolphinnav">
+    <ul>
+      <li><a href="Index_Eng.html"><span>Home</span></a></li>
+      <li><a href="HTML_Eng.html"><span>HTML</span></a></li>
+      <li><a href="SVG_Eng.html" class="current"><span>SVG</span></a></li>
+      <li><a href="CSS_Eng.html"><span>CSS</span></a></li>
+      <li><a href="SVG_Esp.html"><span>Spanish version</span></a></li>    
+    </ul>
+  </div>
+</div>
+<div>
+    <h1 style="text-align: center;"> First steps in SVG</h1>
+    <p> SVG comes from "Scalable Vector Graphics", and its used to define graphics with vectors in XML, with simple forms. 
+        We can include SVG graphics directly into our HTML pages, using the <code>&lt;svg&gt;</code> tag and inside it we define some parameters 
+        like <b style="color: red;"> height </b> y <b style="color: red;"> width </b> and the namespace with the attribute <b style="color: red;"> xmlns </b>.</p>
+    <p> If you prefer <a href="PDF_Files/SVG_Eng.pdf" class="download-button" target="_blank" download="SVG_Eng.pdf">Download a PDF version</a></p>
+    <p> Let's see some SVG tag examples:</p>
+</div>
+<br>
+<div>
+  <nav>
+    <a href="#S1">Rectangles</a> |
+    <a href="#S2">Circles</a> |
+    <a href="#S3">Ellipses</a> |
+    <a href="#S4">Lines</a>  |
+    <a href="#S5">Polygons</a>
+  </nav>
+</div>
+   <br> 
+<div>
+  <h2 id="S1"> Rectangles </h2>
+  <p> The element <code> &lt;rect&gt;</code> is used to create a rectangles and variations from a rectangular shape. It has six basic attributes to give it shape and position, which are:
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Width</td>
+        <td>Required. The width of the rectangle.</td>
+      </tr>
+      <tr>
+        <td>Height</td>
+        <td>Required. The height of the rectangle.</td>
+      </tr>
+      <tr>
+        <td>X</td>
+        <td>The x-position for the top-left corner of the rectangle.</td>
+      </tr>
+      <tr>
+        <td>Y</td>
+        <td>The y-position for the top-left corner of the rectangle.</td>
+      </tr>
+      <tr>
+        <td>rx</td>
+        <td>The x radius of the corners of the rectangle (used to round the corners). Default is 0.</td>
+      </tr>
+      <tr>
+        <td>ry</td>
+        <td>The y radius of the corners of the rectangle (used to round the corners). Default is 0.</td>
+      </tr>
+     </table>
+  </p> 
+  <p> Example of a rectangle filled with blue color (attribute <b style="color: red;"> fill </b>): </p>
+  <img src="Imagenes/Rectangulo_ex.bmp" alt="Rectangle example">
+</div>
+<div>
+   <p> Learn more about this in the section <a href="https://www.w3schools.com/graphics/svg_rect.asp">Rectangles in SVG from w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Back to top</a>
+<div>
+  <h2 id="S2"> Circles </h2>
+  <p> The element <code> &lt;circle&gt;</code> is used to create a circle, and has three basic attributes:
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>r</td>
+        <td>Required. The radius of the circle.</td>
+      </tr>
+      <tr>
+        <td>cx</td>
+        <td>The x-axis center of the circle. Default is 0.</td>
+      </tr>
+      <tr>
+        <td>cy</td>
+        <td>The y-axis center of the circle. Default is 0.</td>
+      </tr>
+      </table>
+  </p>
+  <p> Example of a red-filled circle (attribute <b style="color: red;"> fill </b>):</p>
+  <img src="Imagenes/Circulo_ex.bmp" alt="Circle example">
+</div>
+<div>
+  <p> Learn more about this in the section <a href="https://www.w3schools.com/graphics/svg_circle.asp">Circles in SVG from w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Back to top</a>
+<div>
+  <h2 id="S3"> Ellipses </h2>
+  <p> Ellipses are closely related to circles; they are defined by <code> &lt;ellipse&gt;</code>. They have 4 basic attributes:
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>rx</td>
+        <td>Required. The x radius of the ellipse.</td>
+      </tr>
+      <tr>
+        <td>ry</td>
+        <td>Required. The y radius of the ellipse.</td>
+      </tr>
+      <tr>
+        <td>cx</td>
+        <td>The x-axis center of the ellipse. Default is 0.</td>
+      </tr>
+      <tr>
+        <td>cy</td>
+        <td>The y-axis center of the ellipse. Default is 0.</td>
+      </tr>
+    </table>
+  </p>
+  <p> Example of a yellow-filled ellipse (attribute <b style="color: red;"> fill </b>):</p>
+  <img src="Imagenes/Elipse_ex.bmp" alt="Ellipse example">
+  </div>
+<div>
+  <p> Learn more about this in the section <a href="https://www.w3schools.com/graphics/svg_ellipse.asp">Ellipses in SVG from w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Back to top</a>
+<div>
+  <h2 id="S4"> Lines </h2>
+  <p> The <code> &lt;line&gt;</code> tag allows the user to create a line from the start point (x1, y1) to the point (x2, y2). It has 4 basic attributes:
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>x1</td>
+        <td>Required.The start of the line on the x-axis.</td>
+      </tr>
+      <tr>
+        <td>y1</td>
+        <td>Required.The start of the line on the y-axis.</td>
+      </tr>
+      <tr>
+        <td>x2</td>
+        <td>Required.The end of the line on the x-axis</td>
+      </tr>
+      <tr>
+        <td>y2</td>
+        <td>Required.The end of the line on the y-axis.</td>
+      </tr>
+      </table>
+  </p>    
+  <p> Also, we must define the line width and the line color with an attribute (<b style="color: red;">style</b>="stroke:<i>color</i>;stroke-width:<i>desired width</i>)</p>  
+  <p>Example of a red line (attribute <b style="color: red;"> fill </b>):</p>
+  <img src="Imagenes/Lines_ex.bmp" alt="Line example">
+</div>
+<div>
+  <p> Learn more about this in the section <a href="https://www.w3schools.com/graphics/svg_line.asp">Lines in SVG from w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Back to top</a>
+<div>
+  <h2 id="S5"> Polygons </h2>
+  <p> The <code>&lt;polygon&gt;</code> tag allows us to create a polygon, defining its points, which close automatically (the last point with the first). It only has one basic atribute, <b style="color: red;">points</b>, which lists the points that made the polygon. Each points needs to have a coordinate x and a coordinate y. We also need to define the line width and color with an attribute (<b style="color: red;">style</b>="stroke:<i>color</i>;stroke-width:<i>desired width</i>).</p>
+    
+  <p>Let's see an example:</p>
+  <img src="Imagenes/Poligono_ex.bmp" alt="Polygon example">
+</div>
+<div>
+  <p> Learn more about this in the section <a href="https://www.w3schools.com/graphics/svg_polygon.asp">Polygons in SVG from w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Back to top</a>
+</body>
+</html>
+    
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <style>
+        body {
+            background-color: blanchedalmond;
+            font-family: Helvetica,Arial,Verdana,sans-serif;
+            font-size: 150%;
+            }
+        h2 {
+            color:#1D6893;
+            }
+        table, th, td {
+            border:1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+            }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            }
+
+        .download-button:hover {
+            background-color: #0056b3;
+            }         
+    </style>
+    <title>Web4U - SVG</title>
+</head>
+<body>
+    <hr />
+<div id="dolphincontainer">
+  <div id="dolphinnav">
+    <ul>
+      <li><a href="Index.html"><span>Inicio</span></a></li>
+      <li><a href="HTML_Esp.html"><span>HTML</span></a></li>
+      <li><a href="SVG_Esp.html" class="current"><span>SVG</span></a></li>
+      <li><a href="CSS_Esp.html"><span>CSS</span></a></li>
+      <li><a href="SVG_Eng.html"><span>English version</span></a></li>    
+    </ul>
+  </div>
+</div>
+<div>
+    <h1 style="text-align: center;"> Primeros pasos en SVG</h1>
+    <p> SVG viene de "Scalable Vector Graphics" (Vectores gráficos escalables), y sirve para definir gráficos con vectores en XML, con formas muy sencillas. 
+        Podemos incluir gráficos SVG directamente en nuestras páginas HTML, empezando con la etiqueta <code>&lt;svg&gt;</code> y dentro de ella definiendo algunos parámetros
+        como <b style="color: red;"> height </b> y <b style="color: red;"> width </b> y el namespace con el atributo  <b style="color: red;"> xmlns </b>.</p>
+        <p> Si lo prefieres <a href="PDF_Files/SVG_Esp.pdf" class="download-button" target="_blank" download="SVG_Esp.pdf">Descarga en versión PDF</a></p>
+    <p> Vamos a ver algunos ejemplos de etiquetas de SVG:</p>
+</div>
+<br>
+<div>
+  <nav>
+    <a href="#S1">Rectángulos</a> |
+    <a href="#S2">Círculos</a> |
+    <a href="#S3">Elipses</a> |
+    <a href="#S4">Líneas</a>  |
+    <a href="#S5">Polígonos</a>
+  </nav>
+</div>
+   <br> 
+<div>
+  <h2 id="S1"> Rectángulos </h2>
+  <p> El elemento <code> &lt;rect&gt;</code> se utiliza para crear un rectángulo y variaciones de una forma de rectángulo. Tiene seis atributos básicos para darle forma y una posición, que son:
+    <table>
+      <tr>
+        <th>Atributo</th>
+        <th>Descripción</th>
+      </tr>
+      <tr>
+        <td>Ancho</td>
+        <td>Necesario. Define el ancho del rectángulo.</td>
+      </tr>
+      <tr>
+        <td>Alto</td>
+        <td>Necesario. Define el alto del rectángulo.</td>
+      </tr>
+      <tr>
+        <td>X</td>
+        <td>La posición X para la esquina superior izquierda del rectángulo.</td>
+      </tr>
+      <tr>
+        <td>Y</td>
+        <td>La posición Y para la esquina superior izquierda del rectángulo.</td>
+      </tr>
+      <tr>
+        <td>rx</td>
+        <td>El radio X de las esquinas del rectángulo (se utiliza para redondear las esquinas). El valor predeterminado es 0</td>
+      </tr>
+      <tr>
+        <td>ry</td>
+        <td>El radio Y de las esquinas del rectángulo (se utiliza para redondear las esquinas). El valor predeterminado es 0</td>
+      </tr>
+     </table>
+  </p> 
+  <p> Ejemplo de rectángulo con fondo azul (atributo <b style="color: red;"> fill </b>): </p>
+  <img src="Imagenes/Rectangulo_ex.bmp" alt="Ejemplo rectángulo">
+</div>
+<div>
+   <p> Aprende más en la sección de <a href="https://www.w3schools.com/graphics/svg_rect.asp">Rectángulos en SVG de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="S2"> Círculos </h2>
+  <p> El elemento <code> &lt;circle&gt;</code> se utiliza para crear un círculo, y tiene 3 atributos básicos:
+    <table>
+      <tr>
+        <th>Atributo</th>
+        <th>Descripción</th>
+      </tr>
+      <tr>
+        <td>r</td>
+        <td>Necesario. Define el radio del círculo.</td>
+      </tr>
+      <tr>
+        <td>cx</td>
+        <td>El centro del eje x del círculo. El valor predeterminado es 0.</td>
+      </tr>
+      <tr>
+        <td>cy</td>
+        <td>El centro del eje y del círculo. El valor predeterminado es 0.</td>
+      </tr>
+      </table>
+  </p>
+  <p> Ejemplo de círculo con fondo rojo (atributo <b style="color: red;"> fill </b>):</p>
+  <img src="Imagenes/Circulo_ex.bmp" alt="Ejemplo círculo">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/graphics/svg_circle.asp">Círculos en SVG de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="S3"> Elipses </h2>
+  <p> Las elipse están estrechamente relacionadas con los círculos; vienen definidos por  <code> &lt;ellipse&gt;</code>. Tiene 4 atributos básicos:
+    <table>
+      <tr>
+        <th>Atributo</th>
+        <th>Descripción</th>
+      </tr>
+      <tr>
+        <td>rx</td>
+        <td>Necesario. Define el radio x de la elipse.</td>
+      </tr>
+      <tr>
+        <td>ry</td>
+        <td>Necesario. Define el radio y de la elipse.</td>
+      </tr>
+      <tr>
+        <td>cx</td>
+        <td>El centro del eje x de la elipse. El valor predeterminado es 0.</td>
+      </tr>
+      <tr>
+        <td>cy</td>
+        <td>El centro del eje y de la elipse. El valor predeterminado es 0.</td>
+      </tr>
+      </table>
+  </p>
+  <p> Ejemplo de elipse con fondo amarillo (atributo <b style="color: red;"> fill </b>):</p>
+  <img src="Imagenes/Elipse_ex.bmp" alt="Ejemplo elipse">
+  </div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/graphics/svg_ellipse.asp">Elipses en SVG de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="S4"> Líneas </h2>
+  <p> La etiqueta <code> &lt;line&gt;</code> nos permite crear una línea desde el punto de inicio (x1, y1) hacia el punto final (x2, y2). Tiene cuatro atributos básicos:
+    <table>
+      <tr>
+        <th>Atributo</th>
+        <th>Descripción</th>
+      </tr>
+      <tr>
+        <td>x1</td>
+        <td>Necesario. Comienzo de la línea en el eje X.</td>
+      </tr>
+      <tr>
+        <td>y1</td>
+        <td>Necesario. Comienzo de la línea en el eje Y.</td>
+      </tr>
+      <tr>
+        <td>x2</td>
+        <td>Necesario. Fin de la línea en el eje X</td>
+      </tr>
+      <tr>
+        <td>y2</td>
+        <td>Necesario. Fin de la línea en el eje Y.</td>
+      </tr>
+      </table>
+  </p>    
+  <p> También debe definirse el ancho de la línea y el color con un atributo (<b style="color: red;">style</b>="stroke:<i>color</i>;stroke-width:<i>ancho deseado</i>)</p>  
+  <p>Ejemplo de línea roja (atributo <b style="color: red;"> fill </b>):</p>
+  <img src="Imagenes/Lines_ex.bmp" alt="Ejemplo líneas">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/graphics/svg_line.asp">Líneas en SVG de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="S5"> Polígonos </h2>
+  <p> La etiqueta <code>&lt;polygon&gt;</code> nos permite crear un polígono, definiendo sus puntos, que se cierran automáticamente (el último con el primero). Tiene sólo un atributo basico, <b style="color: red;">points</b>, que enumera los puntos de los que está compuesto el polígono. Cada punto debe tener una coordinada x y una coordinada y. También debe definirse el ancho de la línea y el color con un atributo (<b style="color: red;">style</b>="stroke:<i>color</i>;stroke-width:<i>ancho deseado</i>)</p>
+    
+  <p>Veamos un ejemplo:</p>
+  <img src="Imagenes/Poligono_ex.bmp" alt="Ejemplo polígono">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/graphics/svg_polygon.asp">Polígonos en SVG de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+</body>
+</html>
+    
+</body>
+</html>

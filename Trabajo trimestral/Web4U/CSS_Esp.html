@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <style>
+        body {
+            background-color: blanchedalmond;
+            font-family: Helvetica,Arial,Verdana,sans-serif;
+            font-size: 150%;
+             }
+        h2 {
+            color:#1D6893;
+             }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            }
+
+        .download-button:hover {
+            background-color: #0056b3;
+            }   
+
+    </style>
+    <title>Web4U - CSS</title>
+</head>
+<body>
+    <hr />
+<div id="dolphincontainer">
+  <div id="dolphinnav">
+    <ul>
+      <li><a href="Index.html"><span>Inicio</span></a></li>
+      <li><a href="HTML_Esp.html"><span>HTML</span></a></li>
+      <li><a href="SVG_Esp.html"><span>SVG</span></a></li>
+      <li><a href="CSS_Esp.html" class="current"><span>CSS</span></a></li>
+      <li><a href="CSS_Eng.html"><span>English version</span></a></li>    
+    </ul>
+  </div>
+</div>
+<div>
+    <h1 style="text-align: center;"> Primeros pasos en CSS</h1>
+    <p> CSS significa "hojas de estilo en cascada" y es el lenguaje que usaremos para darle un estilo determinado a nuestra página web. Nos ayuda a definir cómo se van a ver los elementos en la versión final de nuestro sitio. Está estrechamente ligado al atributo <b style="color: red;">style</b>.</p> 
+    <br>
+    <p> Si lo prefieres <a href="PDF_Files/CSS_Esp.pdf" class="download-button" target="_blank" download="CSS_Esp.pdf">Descarga en versión PDF</a></p>
+    <p> Vamos a ver ejemplos de propiedades de CSS:</p>
+</div>
+<br>
+<br>
+<div>
+  <nav>
+    <a href="#C1">Color</a> |
+    <a href="#C2">Fondos</a> |
+    <a href="#C3">Tamaño de la fuente</a> |
+    <a href="#C4">Márgenes</a>  |
+    <a href="#C5">Relleno</a>
+  </nav>
+</div>
+   <br> 
+<div>
+  <h2 id="C1"> Color </h2>
+  <p> Sirve para darle color al texto que se va a mostrar. La forma de incluirlo es con <b style="color: red;">style</b>="color:<i>nombre del color o código hexadecimal</i>" dentro de la etiqueta que deseemos. </p> 
+  <p> Ejemplo de texto con colores: </p>
+  <img src="Imagenes/Colors_ex.bmp" alt="Ejemplos color">
+</div>
+<div>
+   <p> Aprende más en la sección de <a href="https://www.w3schools.com/css/css_colors.asp">Colores en CSS de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="C2"> Fondos </h2>
+  <p> Las propiedades de fondo CSS se utilizan para agregar efectos de fondo a los elementos. Las más habituales son <b style="color: red;">style</b>="background-color:color" para poner un color de fondo al elemento, o <b style="color: red;">style</b>="background-image:url" para poner una imagen de fondo a un elemento.</p>
+    
+  <p>Aquí vamos a ver un ejemplo de color de fondo:</p>
+  <img src="Imagenes/Fondo_ex.bmp" alt="Ejemplo fondos">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/css/css_background.asp">Fondos en CSS de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="C3"> Tamaño de la fuente </h2>
+  <p>Con esta propiedad definimos el tamaño del texto de un elemento concreto o de un grupo de elementos. Se usa con <b style="color: red;">style</b>="font-size:% o Xpx" para un elemento concreto comno atributo de estilo o con <i>elemento</i> {font-size:% o Xpx} en la cabecera del documento para darle a todos los elementos iguales el mismo tamaño de fuente.</p>
+  <img src="Imagenes/Size_ex.bmp" alt="Ejemplo tamaño de fuente">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/css/css_font_size.asp">Tamaño de fuente en CSS de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="C4"> Márgenes </h2>
+  <p> Los márgenes se utilizan para crear espacio alrededor de los elementos, fuera de cualquier borde definido. Tiene propiedades para especificar el margen de cada lado de un elemento:</p>
+  <ul>
+    <li>margin-top -> margen superior</li>
+    <li>margin-right -> margen a la derecha</li>
+    <li>margin-left -> margen a la izquierda</li>
+    <li>margin-bottom -> margen inferior</li>
+  </ul>
+  <p>Todas estas propiedades pueden tener los valores de <i>auto</i>: el explorador calcula los márgenes, <i>longitud</i>: nosotros ponemos la longitud en px, <i>%</i>: especifica un margen en % del ancho del elemento contenedor o <i>inherit</i>: lo hereda del elemento padre. Veamos un ejemplo:</p>
+  <img src="Imagenes/Margen_ex.bmp" alt="Ejemplo márgenes">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/css/css_margin.asp">Márgenes en CSS de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="C5"> Relleno </h2>
+  <p> El relleno se utiliza para crear espacio alrededor de los elementos, dentro de cualquier borde definido. Tiene propiedades para especificar el relleno de cada lado de un elemento:</p>
+  <ul>
+    <li>padding-top -> relleno superior</li>
+    <li>padding-right -> relleno a la derecha</li>
+    <li>padding-left -> relleno a la izquierda</li>
+    <li>padding-bottom -> relleno inferior</li>
+  </ul>
+  <p>Todas estas propiedades pueden tener los valores de <i>longitud</i>: nosotros ponemos la longitud en px, <i>%</i>: especifica un margen en % del ancho del elemento contenedor o <i>inherit</i>: lo hereda del elemento padre. Veamos un ejemplo:</p>
+  <img src="Imagenes/Padding_ex.bmp" alt="Ejemplo relleno">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/css/css_padding.asp">Relleno en CSS de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+</body>
+</html>
+    
+</body>
+</html>

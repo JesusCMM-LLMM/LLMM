@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <style>
+        body {
+            background-color: blanchedalmond;
+            font-family: Helvetica,Arial,Verdana,sans-serif;
+            font-size: 150%;
+             }
+        h2 {
+          color:#1D6893;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Web4U - HTML</title>
+</head>
+<body>
+    <hr />
+<div id="dolphincontainer">
+  <div id="dolphinnav">
+    <ul>
+      <li><a href="Index.html"><span>Inicio</span></a></li>
+      <li><a href="HTML_Esp.html" class="current"><span>HTML</span></a></li>
+      <li><a href="SVG_Esp.html"><span>SVG</span></a></li>
+      <li><a href="CSS_Esp.html"><span>CSS</span></a></li>
+      <li><a href="HTML_Eng.html"><span>English version</span></a></li>    
+    </ul>
+  </div>
+</div>
+<div>
+    <h1 style="text-align: center;"> Primeros pasos en HTML</h1>
+    <p> HTML es el lenguaje de marcado standard para páginas web. Es sencillo de usar y aprender y es la puerta de entrada al diseño web.</p> 
+    <p> Si lo prefieres <a href="PDF_Files/HTML_Esp.pdf" class="download-button" target="_blank" download="HTML_Esp.pdf">Descarga en versión PDF</a></p>
+    <br>
+    <p> Vamos a ver algunos ejemplos de etiquetas de HTML:</p>
+</div>
+<br>
+<div>
+  <nav>
+    <a href="#H1">Encabezados</a> |
+    <a href="#H2">Párrafos</a> |
+    <a href="#H3">Links</a> |
+    <a href="#H4">Imágenes</a>  |
+    <a href="#H5">Listas</a>
+  </nav>
+</div>
+   <br> 
+<div>
+  <h2 id="H1"> Encabezados </h2>
+  <p> Los encabezados son títulos o subtítulos que queremos que queden resaltados en nuestra página web. Pueden ir de <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> en función de la relevancia, siendo <code>&lt;h1&gt; </code> el más importante y que quedará más resaltado
+    y <code>&lt;h6&gt;</code> el de menor importancia. </p> 
+  <p> Ejemplo de los 6 tipos de encabezados: </p>
+  <img src="Imagenes/Headings_ex.bmp" alt="Ejemplos encabezados">
+</div>
+<div>
+   <p> Aprende más en la sección de <a href="https://www.w3schools.com/html/html_headings.asp">Encabezados de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="H2"> Párrafos </h2>
+  <p> La etiqueta de párrafo se utiliza para empezar a escribir en una nueva línea; y viene definida por <code> &lt;p&gt;</code>.</p>
+  <p> Sirve para separar párrafos unos de otros, como en este ejemplo:</p>
+  <img src="Imagenes/Paragraphs_ex.bmp" alt="Ejemplo párrafos">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/html/html_paragraphs.asp">Párrafos de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="H3"> Links </h2>
+  <p> Los links se encuentran en casi cualquier página y es una de las etiquetas más comunes; vienen definidos por  <code> &lt;a&gt;</code>.</p>
+  <p> Sirve para enlazar partes de una página web con otras o con sitios externos, como en este ejemplo:</p>
+  <img src="Imagenes/Links_ex.bmp" alt="Ejemplo links">
+  <p> Como podemos observar, <b style="color: red;"> href </b> es el atributo más importante, que indica el destino que se busca con el link. El texto entre las etiquetas de inicio y de cierre es el texto que servirá como contenedor del link. </p>
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/html/html_links.asp">Links de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="H4"> Imágenes </h2>
+  <p> La etiqueta de imágenes se utiliza para introducir imágenes en nuestra página web, lo que mejora el diseño y dota de personalidad a nuestro trabajo; y viene definida por <code> &lt;img&gt;</code>.</p>
+  <p> Obligatoriamente, dentro de la etiqueta <code> &lt;img&gt;</code> debemos incluir los atributos <b style="color: red;"> src </b> que nos indica el camino a la imagen, y la etiqueta <b style="color: red;"> alt </b> que nos da un texto alternativo por si la imagen no puede mostrarse. Veamos un ejemplo:</p>
+  <img src="Imagenes/Images_ex.bmp" alt="Ejemplo imágenes">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/html/html_images.asp">Imágenes de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+<div>
+  <h2 id="H5"> Listas </h2>
+  <p> La etiqueta de listas se utiliza para crear listas de elementos en nuestra página web; y viene definida por <code> &lt;ul&gt;</code> para una lista no ordenada y <code> &lt;ol&gt;</code> para una lista ordenada.</p>
+  <p> En ambos tipos de listas debemos incluir la etiqueta <code> &lt;il&gt;</code> que nos indica los items que conforman la lista. Veamos un ejemplo:</p>
+  <img src="Imagenes/Lists_ex.bmp" alt="Ejemplo listas">
+</div>
+<div>
+  <p> Aprende más en la sección de <a href="https://www.w3schools.com/html/html_lists.asp">Listas de w3schools.</a></p>
+</div>
+<br>
+<a href="#dolphincontainer"> Volver arriba</a>
+</body>
+</html>
