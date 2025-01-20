@@ -28,6 +28,6 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | [Ejercicio 19](/Tema1/Ejercicio19HTML.html) | Ejercicio 19 de HTML de la actividad |
 | [Ejercicio 20](/Tema1/Ejercicio20HTML.html) | Ejercicio 20 de HTML de la actividad |
 | [Ejercicio 26](/Tema1/Ejercicio26HTML) | Ejercicio 26 de HTML de la actividad |
-| [Ejercicio 27](/Tema1/Ejercicio27HTML) | Ejercicio 26 de HTML de la actividad |
-| [Ejercicio 28](/Tema1/Ejercicio28HTML) | Ejercicio 26 de HTML de la actividad |
+| [Ejercicio 27](/Tema1/Ejercicio27HTML) | Ejercicio 27 de HTML de la actividad |
+| [Ejercicio 28](/Tema1/Ejercicio28HTML.html) | Ejercicio 28 de HTML de la actividad |
 
