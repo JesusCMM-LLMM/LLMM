@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiVideo</title>
+</head>
+<body>
+    <div style="text-align:center"> 
+  <button onclick="playPause()">Inicio/Pausa</button> 
+  <button onclick="makeBig()">Grande</button>
+  <button onclick="makeSmall()">Pequeño</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+    <video id="Video" width="630" height="415" autoplay muted>
+            <source src="video/prueba.mp4" type="video/mp4">
+    </video>
+
+    <script> 
+        var myVideo = document.getElementById("Video"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        
+        function makeBig() { 
+            myVideo.width = 840; 
+        } 
+        
+        function makeSmall() { 
+            myVideo.width = 210; 
+        } 
+        
+        function makeNormal() { 
+            myVideo.width = 420; 
+        } 
+        </script> 
+    </div>
+    
+</body>
+</html>
