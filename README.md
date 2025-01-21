@@ -29,6 +29,7 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | [Ejercicio 20](/Tema1/Ejercicio20HTML.html) | Ejercicio 20 de HTML de la actividad |
 | [Ejercicio 21](/Tema1/Ejercicio21HTML) | Ejercicio 21 de HTML de la actividad |
 | [Ejercicio 22](/Tema1/Ejercicio22HTML) | Ejercicio 22 de HTML de la actividad |
+| [Ejercicio 23](/Tema1/Ejercicio23HTML.html) | Ejercicio 23 de HTML de la actividad |
 | [Ejercicio 26](/Tema1/Ejercicio26HTML) | Ejercicio 26 de HTML de la actividad |
 | [Ejercicio 27](/Tema1/Ejercicio27HTML) | Ejercicio 27 de HTML de la actividad |
 | [Ejercicio 28](/Tema1/Ejercicio28HTML.html) | Ejercicio 28 de HTML de la actividad |
