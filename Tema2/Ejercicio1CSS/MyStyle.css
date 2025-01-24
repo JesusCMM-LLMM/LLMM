@@ -1,0 +1,40 @@
+
+body {
+    font-family: arial;
+    color: black;
+    font-size: 16px;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    background-color: lightgrey;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1.6em;
+    word-spacing: 2em;
+    text-align: center;
+    }
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+    font-size: 18px;
+    letter-spacing: 1.4em;
+  
+}
+
+.left {
+    width: 20%;
+    font-weight: bold;
+    float: left;
+    
+  }
+  
+.right {
+    float: left;
+    width:80%;
+  }
+
+  
