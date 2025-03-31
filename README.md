@@ -48,3 +48,10 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | [Ejercicio 5](/Tema2/Ejercicio5CSS.html) | Ejercicio 5 de CSS de la actividad |
 | [Ejercicio 6](/Tema2/Ejercicio6CSS.html) | Ejercicio 6 de CSS de la actividad |
 | [Ejercicio 9](/Tema2/Ejercicio9CSS.HTML) | Ejercicio 9 de CSS de la actividad |
+
+## Tema 3 - JS
+
+| Ejercicio        | Descripción                |
+| -------------    | -------------              |
+| [Ejercicio 1](/Tema3/Ejercicio1.html) | Ejercicio 1 de JS de la actividad |
+| [Ejercicio 2](/Tema2/Ejercicio2CSS) | --- |
