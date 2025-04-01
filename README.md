@@ -54,4 +54,4 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | Ejercicio        | Descripción                |
 | -------------    | -------------              |
 | [Ejercicio 1](/Tema3/Ejercicio1.html) | Ejercicio 1 de JS de la actividad |
-| [Ejercicio 2](/Tema2/Ejercicio2CSS) | --- |
+| [Ejercicio 2](Tema3/Ejercicio2.html) | Ejercicio 2 de JS de la actividad |
