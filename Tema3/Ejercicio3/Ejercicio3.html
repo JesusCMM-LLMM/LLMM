@@ -7,10 +7,20 @@
 <body>
     <h2>Imágenes de coches</h2>
 
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars" onchange="cambiaCoche()">
+        <option value="coche1" onchange="cambiaCoche('ImagesCars/coche1.jpg')">coche1</option>
+        <option value="coche2" onchange="cambiaCoche('ImagesCars/coche2.jpg')">coche2</option>
+        <option value="coche3">coche3</option>
+        <option value="coche4">coche4</option>
+        <option value="coche5">coche5</option>
+        <option value="coche6">coche6</option>
+    </select>
+
 
     <p>Ejemplo de JavaScript en el que cambiamos las imágenes de coches mostradas el pulsar un botón</p>
      
-    <img id="miImagen" src="ImagesCars/coche1.jpg" style="height:300px"><br>
+    <img id="cars" src="ImagesCars/coche1.jpg" style="height:300px"><br>
      
     <button onclick="cambiaCoche('ImagesCars/coche1.jpg')">Coche 1</button>    
     <button onclick="cambiaCoche('ImagesCars/coche2.jpg')">Coche 2</button>    

@@ -1,5 +1,5 @@
 function cambiaCoche(nombre) {
-    document.getElementById('miImagen').src = nombre;   
+    document.getElementById('cars').src = nombre;   
 }
 
 function cambiaSpidey(nombre) {
