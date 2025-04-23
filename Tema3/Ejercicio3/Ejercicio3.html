@@ -5,39 +5,31 @@
     </script>
 </head>
 <body>
-    <h2>Imágenes de coches</h2>
 
-    <label for="cars">Choose a car:</label>
-    <select id="cars" name="cars" onchange="cambiaCoche()">
-        <option value="coche1" onchange="cambiaCoche('ImagesCars/coche1.jpg')">coche1</option>
-        <option value="coche2" onchange="cambiaCoche('ImagesCars/coche2.jpg')">coche2</option>
-        <option value="coche3">coche3</option>
-        <option value="coche4">coche4</option>
-        <option value="coche5">coche5</option>
-        <option value="coche6">coche6</option>
+    <p>Selecciona un coche del menú desplegable:</p>
+
+    <img id="cars" src="ImagesCars/coche1.jpg" style="height:300px"><br>
+
+    <select onchange="cambiaCoche(this.value)">
+        <option value="ImagesCars/coche1.jpg">Coche 1</option>
+        <option value="ImagesCars/coche2.jpg">Coche 2</option>
+        <option value="ImagesCars/coche3.jpg">Coche 3</option>
+        <option value="ImagesCars/coche4.jpg">Coche 4</option>
+        <option value="ImagesCars/coche5.jpg">Coche 5</option>
+        <option value="ImagesCars/coche6.jpg">Coche 6</option>
     </select>
 
+    <p>Selecciona una imagen de Spiderman:</p>
 
-    <p>Ejemplo de JavaScript en el que cambiamos las imágenes de coches mostradas el pulsar un botón</p>
-     
-    <img id="cars" src="ImagesCars/coche1.jpg" style="height:300px"><br>
-     
-    <button onclick="cambiaCoche('ImagesCars/coche1.jpg')">Coche 1</button>    
-    <button onclick="cambiaCoche('ImagesCars/coche2.jpg')">Coche 2</button>    
-    <button onclick="cambiaCoche('ImagesCars/coche3.jpg')">Coche 3</button>        
-    <button onclick="cambiaCoche('ImagesCars/coche4.jpg')">Coche 4</button>    
-    <button onclick="cambiaCoche('ImagesCars/coche5.jpg')">Coche 5</button>    
-    <button onclick="cambiaCoche('ImagesCars/coche6.jpg')">Coche 6</button>        
-
-    <p>Ejemplo de JavaScript en el que cambiamos las imágenes de coches mostradas el pulsar un botón</p>
-     
     <img id="miSpidey" src="ImagesSpiderman/spiderman1.gif" style="height:300px"><br>
-     
-    <button onclick="cambiaSpidey('ImagesSpiderman/spiderman1.gif')">Spiderman 1</button>    
-    <button onclick="cambiaSpidey('ImagesSpiderman/spiderman2.jpg')">Spiderman 2</button>    
-    <button onclick="cambiaSpidey('ImagesSpiderman/spiderman3.jpg')">Spiderman 3</button>        
-    <button onclick="cambiaSpidey('ImagesSpiderman/spiderman4.jpg')">Spiderman 4</button>    
-    <button onclick="cambiaSpidey('ImagesSpiderman/spiderman5.jpg')">Spiderman 5</button>    
-          
+
+    <select onchange="cambiaSpidey(this.value)">
+        <option value="ImagesSpiderman/spiderman1.gif">Spiderman 1</option>
+        <option value="ImagesSpiderman/spiderman2.jpg">Spiderman 2</option>
+        <option value="ImagesSpiderman/spiderman3.jpg">Spiderman 3</option>
+        <option value="ImagesSpiderman/spiderman4.jpg">Spiderman 4</option>
+        <option value="ImagesSpiderman/spiderman5.jpg">Spiderman 5</option>
+    </select>
+
 </body>
 </html>

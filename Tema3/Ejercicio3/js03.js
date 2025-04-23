@@ -1,7 +1,7 @@
-function cambiaCoche(nombre) {
-    document.getElementById('cars').src = nombre;   
+function cambiaCoche(src) {
+    document.getElementById("cars").src = src;
 }
 
-function cambiaSpidey(nombre) {
-    document.getElementById('miSpidey').src = nombre;   
+function cambiaSpidey(src) {
+    document.getElementById("miSpidey").src = src;
 }
