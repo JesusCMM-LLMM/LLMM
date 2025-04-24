@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  #output {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }

@@ -67,5 +67,8 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | [Ejercicio 8](Tema3/Ejercicio8) | Ejercicio 8 de JS de la actividad |
 | [Ejercicio 9](Tema3/Ejercicio9) | Ejercicio 9 de JS de la actividad |
 | [Ejercicio 10](Tema3/Ejercicio10) | Ejercicio 10 de JS de la actividad |
-
+| [Ejercicio 1 DOM](Tema3/Ejercicio1DOM) | Ejercicio 1 de DOM de JS de la actividad |
+| [Ejercicio 2 DOM](Tema3/Ejercicio2DOM) | Ejercicio 2 de DOM de JS de la actividad |
+| [Ejercicio 3 DOM](Tema3/Ejercicio3DOM) | Ejercicio 3 de DOM de JS de la actividad |
+| [Ejercicio 4 DOM](Tema3/Ejercicio4DOM) | Ejercicio 4 de DOM de JS de la actividad |
 
