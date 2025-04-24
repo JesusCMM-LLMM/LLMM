@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Funciones</title>
+  <link rel="stylesheet" href="style10.css">
+  <script src="js10.js"></script>  
+</head>
+<body>
+
+<h2>Ejemplos de funciones</h2>
+
+<section>
+  <h3>1. Máximo entre dos</h3>
+  <input id="maxA" type="number"> 
+  <input id="maxB" type="number">
+  <button onclick="maxResult()">Max</button>
+  <p id="maxOut"></p>
+</section>
+
+<section>
+  <h3>2. Máximo entre tres</h3>
+  <input id="max3A" type="number"> 
+  <input id="max3B" type="number">
+  <input id="max3C" type="number">
+  <button onclick="maxOfThreeResult()">Max</button>
+  <p id="max3Out"></p>
+</section>
+
+<section>
+  <h3>3. Es una vocal?</h3>
+  <input id="vowelChar" type="text" maxlength="1">
+  <button onclick="isVowelResult()">¿Sí o no?</button>
+  <p id="vowelOut"></p>
+</section>
+
+<section>
+  <h3>4. Traductor Rövarspråket </h3>
+  <input id="rovarInput" type="text">
+  <button onclick="translateResult()">¡Codificalo!</button>
+  <p id="rovarOut"></p>
+</section>
+
+<section>
+  <h3>5. Suma y multiplicación</h3>
+  <input id="arrayInput" type="text" placeholder="e.g. 1 2 3 4">
+  <button onclick="sumAndMultiply()">Calcula</button>
+  <p id="sumMultiplyOut"></p>
+</section>
+
+<section>
+  <h3>6. Dar la vuelta</h3>
+  <input id="reverseInput" type="text">
+  <button onclick="reverseResult()">Dale la vuelta</button>
+  <p id="reverseOut"></p>
+</section>
+
+<section>
+  <h3>7. Ordenar alfabéticamente</h3>
+  <input id="sortInput" type="text" placeholder="palabra1 palabra2 palabra3">
+  <button onclick="sortWords()">Ordena</button>
+  <p id="sortOut"></p>
+</section>
+
+<section>
+  <h3>8. Palabra más larga</h3>
+  <input id="longestInput" type="text" placeholder="palabra1 palabra2 palabra3">
+  <button onclick="findLongest()">¿Cuál es?</button>
+  <p id="longestOut"></p>
+</section>
+
+<section>
+  <h3>9. Palabras más largas que X número</h3>
+  <input id="filterWords" type="text" placeholder="palabra1 palabra2 palabra3">
+  <input id="filterLen" type="number" placeholder="Longitud">
+  <button onclick="filterWordsFunc()">Filtra</button>
+  <p id="filterOut"></p>
+</section>
+
+<section>
+  <h3>10. Frecuencia de caracteres</h3>
+  <input id="freqInput" type="text">
+  <button onclick="charFrequency()">Cuenta</button>
+  <p id="freqOut"></p>
+</section>
+
+</body>
+</html>
