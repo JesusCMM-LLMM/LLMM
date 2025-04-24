@@ -65,3 +65,4 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | [Ejercicio 6](Tema3/Ejercicio6) | Ejercicio 6 de JS de la actividad |
 | [Ejercicio 7](Tema3/Ejercicio7) | Ejercicio 7 de JS de la actividad |
 | [Ejercicio 8](Tema3/Ejercicio8) | Ejercicio 8 de JS de la actividad |
+| [Ejercicio 9](Tema3/Ejercicio9) | Ejercicio 9 de JS de la actividad |
