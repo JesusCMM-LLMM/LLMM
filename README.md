@@ -72,3 +72,9 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 | [Ejercicio 3 DOM](Tema3/Ejercicio3DOM) | Ejercicio 3 de DOM de JS de la actividad |
 | [Ejercicio 4 DOM](Tema3/Ejercicio4DOM) | Ejercicio 4 de DOM de JS de la actividad |
 
+## Tema 4 - XML
+
+| Ejercicio        | Descripción                |
+| -------------    | -------------              |
+| [Ejercicio 1](/Tema4/Ejercicio1.html) | Ejercicio 1 de XML de la actividad |
+
