@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CD catalog</title>
-</head>
+<html>
 <body>
-    <h2>The XMLHttpRequest Object</h2>
 
+<h2>The XMLHttpRequest Object</h2>
 <p id="demo"></p>
  
 <script>
+
 const xhttp = new XMLHttpRequest();
-xhttp.onload = function() {
+xhttp.onload = function () {
   const xmlDoc = this.responseXML;
-  const x = xmlDoc.getElementsByTagName("CD");
-  let txt = "", title= "", artist = "", price = "";
-  for (let i = 0; i < x.length; i++) {
-    title = x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
-    artist = x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue;
-    price = x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
-    txt = txt + title + " - (" + artist + ") " + price + "€<br>";
+  const t = xmlDoc.getElementsByTagName("TITLE");
+  const a = xmlDoc.getElementsByTagName("ARTIST");
+  const c = xmlDoc.getElementsByTagName("COMPANY");
+  const p = xmlDoc.getElementsByTagName("PRICE");
+  let txt = "";
+  for (let i = 0; i < t.length; i++) {
+    txt += t[i].textContent + " - ";
+    txt += a[i].textContent + " - ";
+    txt += c[i].textContent + " - ";
+    txt += p[i].textContent + "<br>";
   }
+
   document.getElementById("demo").innerHTML = txt;
-}
-xhttp.open("GET", "musicos.xml");
+};
+
+
+xhttp.open("GET", "musicos.xml", true);
 xhttp.send();
 </script>
+
+</script>
+
 </body>
 </html>
 
