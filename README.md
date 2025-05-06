@@ -76,6 +76,6 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 
 | Ejercicio        | Descripción                |
 | -------------    | -------------              |
+| [Pregntas iniciales](/Tema4/EjerciciosIntrod.md) | Preguntas teóricas iniciales de XML |
 | [Ejercicio 2](/Tema4/Ejercicio2) | Ejercicio 2 de XML-DOM de la actividad |
 | [Ejercicio 3](/Tema4/Ejercicio3) | Ejercicio 3 de XML-DOM de la actividad |
-
