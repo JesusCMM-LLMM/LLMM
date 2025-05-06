@@ -61,7 +61,7 @@ xml
 </publication>
 ~~~
 Estructura del árbol:
-
+~~~
 Raíz: <publication>
 
 Hijo: <newsitem>
@@ -74,7 +74,7 @@ Subhijos:
 
 <article> (contiene <heading>, <text> y <summary>).
 
-
+~~~
 
 
 
