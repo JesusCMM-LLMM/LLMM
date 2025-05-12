@@ -76,6 +76,12 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 
 | Ejercicio        | Descripción                |
 | -------------    | -------------              |
-| [Pregntas iniciales](/Tema4/EjerciciosIntrod.md) | Preguntas teóricas iniciales de XML |
+| [Preguntas iniciales](/Tema4/EjerciciosIntrod.md) | Preguntas teóricas iniciales de XML |
 | [Ejercicio 2](Tema4/XML_DOM_EXERCISES/Ejercicio2) | Ejercicio 2 de XML-DOM de la actividad |
 | [Ejercicio 3](Tema4/XML_DOM_EXERCISES/Ejercicio3) | Ejercicio 3 de XML-DOM de la actividad |
+| [Ejercicio 1](Tema4/AJAX_EXERCISES/Ejercicio1) | Ejercicio 1 de XML-AJAX de la actividad |
+| [Ejercicio 2](Tema4/AJAX_EXERCISES/Ejercicio2) | Ejercicio 2 de XML-AJAX de la actividad |
+| [Ejercicio 3](Tema4/AJAX_EXERCISES/Ejercicio3) | Ejercicio 3 de XML-AJAX de la actividad |
+| [Ejercicio 4](Tema4/AJAX_EXERCISES/Ejercicio4) | Ejercicio 4 de XML-AJAX de la actividad |
+| [Ejercicio 5](Tema4/AJAX_EXERCISES/Ejercicio5) | Ejercicio 5 de XML-AJAX de la actividad |
+
