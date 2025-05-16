@@ -1,51 +1,42 @@
 <!DOCTYPE html>
-<html>
-<style>
-table,th,td {
-  border : 1px solid black;
-  border-collapse: collapse;
-}
-th,td {
-  padding: 5px;
-}
-</style>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El tiempo en Huelva</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
 <body>
 
 <h2>El tiempo en Huelva</h2>
 
-<button type="button" onclick="loadDoc()">La previsión de hoy</button>
-<br><br>
-<table id="demo"></table>
+<h3 id="fecha"></h3>
+<p><strong>Temperatura máxima:</strong> <span id="tmax"></span> °C</p>
+<p><strong>Temperatura mínima:</strong> <span id="tmin"></span> °C</p>
 
-<script>
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
-    }
-  };
-  xhttp.open("GET", "huelva.xml", true);
-  xhttp.send();
-}
-// temperatura máxima y mínima, estado del cielo por tramo horario, dirección y velocidad del viento y humedad relativa
+<table id="tablaClima">
+  <tr>
+    <th>Periodo</th>
+    <th>Estado del cielo</th>
+    <th>Dirección del viento</th>
+    <th>Velocidad del viento (km/h)</th>
+    <th>Humedad relativa (%)</th>
+  </tr>
+</table>
 
-function myFunction(xml) {
-  var i;
-  var xmlDoc = xml.responseXML;
-  var table="<tr><th>Temp. Máxima</th><th>Temp. Mínima</th><th>Humedad Relativa</th><th>Velocidad Viento</th><th>Dirección Viento</th></tr>";
-  var x = xmlDoc.getElementsByTagName("ciudad");
-  for (i = 0; i <x.length; i++) {
-    table += "<tr><td>" +
-    x[i].getElementsByTagName("temperatura")[0].getElementsByTagName("maxima")[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("temperatura")[0].getElementsByTagName("minima")[0].childNodes[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("humedad")[0].childNodes[0].nodeValue +
-    "</td></tr>";
-  }
-  document.getElementById("demo").innerHTML = table;
-}
-</script>
+<script src="Ej2.js"></script>
+
 </body>
 </html>
+
+
