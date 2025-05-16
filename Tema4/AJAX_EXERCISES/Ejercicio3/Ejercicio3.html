@@ -17,10 +17,10 @@ const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
   const myArray = JSON.parse(this.responseText);
 
-  // Mostrar longitud
+  // Longitud
   document.getElementById("length").textContent = myArray.length;
 
-  // Mostrar elementos en tabla
+  // Tabla
   let output = "";
   for (let i = 0; i < myArray.length; i++) {
     output += "<tr><td>" + myArray[i] + "</td></tr>";

@@ -37,7 +37,7 @@ function mostrarClima(xml) {
     let direccion = viento ? viento.getElementsByTagName("direccion")[0].textContent : "N/A";
     let velocidad = viento ? viento.getElementsByTagName("velocidad")[0].textContent : "N/A";
 
-    // Humedad relativa por hora aproximada (usamos la primera hora del bloque como referencia)
+    // Humedad relativa 
     const horaRef = periodo.split("-")[0];
     let humedad = dia.querySelector(`humedad_relativa dato[hora="${horaRef}"]`);
     let humedadValor = humedad ? humedad.textContent : "N/A";
