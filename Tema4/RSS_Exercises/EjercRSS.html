@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lector de RSS con AJAX</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        h1 { color: #2c3e50; }
+        .rss-item { margin-bottom: 1.5em; border-bottom: 1px solid #ccc; padding-bottom: 1em; }
+        .rss-item h2 { margin: 0 0 0.5em 0; font-size: 1.2em; }
+        .rss-item p { margin: 0.5em 0; }
+        .rss-item a { color: #2980b9; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>Noticias RSS (BBC Mundo)</h1>
+    <div id="rss-feed">Cargando noticias...</div>
+
+    <script>
+        // URL del feed RSS (puedes cambiarlo por otro feed público)
+        const RSS_URL = "https://feeds.bbci.co.uk/mundo/rss.xml";
+
+        function fetchRSS() {
+            // Usamos una API pública para evitar problemas de CORS
+            const apiUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(RSS_URL)}`;
+
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const parser = new DOMParser();
+                    const xml = parser.parseFromString(data.contents, "application/xml");
+                    const items = xml.querySelectorAll("item");
+                    let html = "";
+
+                    items.forEach(item => {
+                        const title = item.querySelector("title")?.textContent || "";
+                        const link = item.querySelector("link")?.textContent || "#";
+                        const description = item.querySelector("description")?.textContent || "";
+                        const pubDate = item.querySelector("pubDate")?.textContent || "";
+
+                        html += `
+                            <div class="rss-item">
+                                <h2><a href="${link}" target="_blank" rel="noopener">${title}</a></h2>
+                                <p>${description}</p>
+                                <small>${pubDate}</small>
+                            </div>
+                        `;
+                    });
+
+                    document.getElementById("rss-feed").innerHTML = html || "No se encontraron noticias.";
+                })
+                .catch(error => {
+                    document.getElementById("rss-feed").textContent = "Error al cargar el feed RSS.";
+                    console.error(error);
+                });
+        }
+
+        fetchRSS();
+    </script>
+</body>
+</html>
