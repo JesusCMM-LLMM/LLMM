@@ -76,6 +76,10 @@ Repositorio con las actividades de Lenguaje de Marcas de ASIR
 
 | Ejercicio        | Descripción                |
 | -------------    | -------------              |
+| [Trabajo Trimestral XML](https://github.com/JesusCMM-LLMM/ProyectoXML) | Proyecto de XML con JS, Ajax, html y css. |
+
+| Ejercicio        | Descripción                |
+| -------------    | -------------              |
 | [Preguntas iniciales](/Tema4/EjerciciosIntrod.md) | Preguntas teóricas iniciales de XML |
 | [Ejercicio 2](Tema4/XML_DOM_EXERCISES/Ejercicio2) | Ejercicio 2 de XML-DOM de la actividad |
 | [Ejercicio 3](Tema4/XML_DOM_EXERCISES/Ejercicio3) | Ejercicio 3 de XML-DOM de la actividad |
